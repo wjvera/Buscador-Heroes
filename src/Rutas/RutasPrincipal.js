@@ -7,19 +7,16 @@ import {
 
 
 import LoginScreen from '../components/login/LoginScreen';
-import { MarvelScreen } from '../components/marvel/MarvelScreen';
-import { Navbar } from '../components/navbar/Navbar';
+import { Rutas } from './Rutas';
 
 export const RutasPrincipal = () => {
     return (
     <Router>
-      <div>
-
-        <Navbar />
+      <div> 
 
         <Switch>
           <Route exact path="/login" component={LoginScreen}/>
-          <Route exact path="/" component={MarvelScreen}/>
+          <Route path="/" component={Rutas}/>
         </Switch>
 
       </div>
