@@ -1,10 +1,9 @@
 import React from 'react'
+import { RutasPrincipal } from './Rutas/RutasPrincipal'
 
 const HeroesApp = () => {
     return (
-        <>
-            <h1>Heroes App</h1>
-        </>
+        <RutasPrincipal />
     )
 }
 
