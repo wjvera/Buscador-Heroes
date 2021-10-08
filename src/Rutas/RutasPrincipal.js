@@ -11,7 +11,7 @@ import { Rutas } from './Rutas';
 
 export const RutasPrincipal = () => {
     return (
-    <Router>
+    <Router> 
       <div> 
 
         <Switch>

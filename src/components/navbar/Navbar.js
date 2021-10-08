@@ -30,7 +30,7 @@ export const Navbar = () => {
                         exact
                         to="/dc"
                     >
-                        DC
+                        DC 
                     </NavLink>
                 </div>
             </div>
